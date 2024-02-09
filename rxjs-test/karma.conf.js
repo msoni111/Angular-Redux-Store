@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-redux-store'),
+      dir: require('path').join(__dirname, './coverage/rxjs-test'),
       subdir: '.',
       reporters: [
         { type: 'html' },
